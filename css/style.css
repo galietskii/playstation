@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding: 0 10px;
+    max-width: 1250px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    background: #E5E5E5;
+    overflow: hidden;
+}
+.clearfix {
+    clear: both;
+}
+.header__logo__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 30px;
+    z-index: 2;
+}
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F9EBFF;
+    margin-top: -150px;
+    margin-left: 54px;
+}
+
+.menu {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+}
+.link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 44px;
+    color: #7553E9;
+    margin-left: 82px;
+}
+.logo__svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.game-gta:hover {
+    transform: scale(2);
+
+}
+.hire__me {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about__designer {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.title__about__designer {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #7553E9;
+}
+.text__about__designer {
+    width: 383px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    color: #4F4F4F;
+    text-align: center;
+}
+.about__designer img {
+    width: 50px;
+    height: 60px;
+}
+.insta__photo {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 5px;
+    top: 500px;
+}
+.image {
+    position: absolute;
+    left: 55%;
+    top: 129px;
+}
+.price {
+    z-index: 11111;
+}
+.image img {
+    width: 500px;
+    height: 400px;
+    transition-duration: 1s;
+}
+.image img:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+
+}
+.image__image {
+    width: 500px;
+    
+}
+.main {
+    margin-top: 200px;
+    background: url(../images/background.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.svg {
+    position: absolute;
+    left: -55px;
+    top: 500px;
+    z-index: 1;
+}
+.photo__designer {
+    position: absolute;
+    width: 445px;
+    height: 431px;
+    left: 165px;
+    top: 850px;
+    z-index: 99;
+    transition: transform .8s;
+}
+.photo__designer:hover {
+    transform: rotate(360deg);
+}
+.title__personality {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 10px;
+    letter-spacing: 0.12em;
+    text-align: right;
+    color: #6D3EDF;
+}
+.text__personality {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px; 
+    text-align: right;
+    color: #6D3EDF;
+
+}
+.about__personality {
+    float: right;
+    margin-top: 257px;
+    margin-right: 60px;
+}
+.line {
+    width: 500px;
+    height: 4px;
+    background: #EE75AC;
+    position: relative;
+    left: 17%;
+    margin-bottom: 50px;
+}
+.circle {
+    left: 35px;
+    position: absolute;
+    top: 1000px;
+    z-index: 22;
+}
+.skill-main {
+    margin-top: 400px;
+    margin-left: 150px;
+}
+.title-skill {
+    width: 635px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.12em;
+    color: #6D3EDF;
+}
+.title-skill::after {
+    content: "";
+    display: block;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #EE75AC;
+}
+.r-photo {
+    z-index: 1;
+}
+.rose-photo {
+    position: absolute;
+    top: 900.41px;
+    right: -50px;
+    z-index: 6;
+}
+.after-rose-photo {
+    position: absolute;
+    top: 1120px;
+    right: -50px;
+    z-index: 9;
+}
+.all__skills {
+    display: flex;
+    justify-content: space-between;
+    z-index: 99999;
+    margin-top: 138px;
+    margin-left: 230px;
+}
+
+.block__softskill h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #6D3EDF;
+    margin-left: 20px;
+}
+.block__softskill p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #6D3EDF;
+    margin-top: 60px;
+}
+.block__technical {
+    z-index: 999;
+}
+.block__technical h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #6D3EDF;
+    margin-left: 20px;
+}
+.block__technical p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #6D3EDF;
+    margin-top: 60px;
+}
+.vector {
+    position: absolute;
+    top: 2550px;
+    left: 0;
+    z-index: 1;
+}
+.ellipsed {
+    position: absolute;
+    left: 0px;
+    top: 2700px;
+    z-index: 1;
+}
+.text__potfolio {
+    text-align: center;
+    margin-top: 210px;
+    z-index: 9999;
+}
+.text__potfolio img {
+    z-index: 9999;
+}
+.text__potfolio h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 128px;
+    letter-spacing: 0.12em;
+    color: #6D3EDF;
+}
+.before__footer {
+    z-index: 1;
+}
+.text__potfolio h4::after {
+    content: "";
+    display: block;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #EE75AC;
+    margin-left: 295px;
+    margin-right: 295px;
+}
+
+.krug {
+    text-align: center;
+}
+.liski-krug {
+    display: inline-block;
+}
+.button {
+    width: 14px;
+    height: 14px;
+    background-color: #6D3EDF;
+    border-radius: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.button:hover {
+    background-color: #71D3C9;
+}
+
+
+
+@media (max-width: 402px) {
+    .header {
+        background: #E5E5E5;
+    }
+    .svg__logo {
+        width: 113.12px;
+        height: 91.11px;
+    }
+    .title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .link {
+        display: none;
+    }
+    .for__phone {
+        display: inline-block;
+        font-size: 11px;
+        line-height: 13px;
+        margin-left: 7px;
+    }
+    .menu {
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    .hire__me {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .intro {
+        margin-top: 32px;
+    }
+    .title__about__designer {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .about__designer {
+        margin-top: auto;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .image {
+        position: relative;
+        left: auto;
+        top: 10px;
+
+    }
+    .text__about__designer {
+        width: 91%;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .image img {
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 262px;
+        height: 237px;
+
+    }
+    .insta__photo {
+        top: 300px;
+        z-index: 999;
+    }
+    .svg {
+        position: absolute;
+        left: -313px;
+        top: 340px;
+        z-index: 1;
+    }
+    .photo__designer {
+        position: absolute;
+        width: 225px;
+        height: 211px;
+        left: 57px; 
+        top: 851px;
+        z-index: 99;
+    }
+    .circle {
+        left: 5px;
+        position: absolute;
+        top: 933px;
+    }
+    .circle__svg {
+        width: 277px;
+        height: 334px;
+    }
+    .about__personality {
+        float: right;
+        margin-top: 506px;
+        margin-right: auto;
+    }
+    .title__personality {
+        font-size: 40px;
+    }
+    .line {
+        width: 500px;
+        height: 4px;
+        background: #EE75AC;
+        position: relative;
+        left: 46%;
+    }
+    .text__personality {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .skill-main {
+        margin-top: 45px;
+    }
+    .title-skill {
+        width: 611px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 39px;
+    }
+    .price {
+        z-index: 11111;
+        width: 326px;
+    }
+    .vector {
+        display: none;
+    }
+    .ellipsed {
+        display: none;
+    }
+    .after-rose-photo {
+        display: none;
+    }
+    .text__potfolio h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0.12em;
+        color: #6D3EDF;
+    }
+    .text__potfolio {
+        text-align: center;
+        margin-top: 29px;
+    }
+    .title1 {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        z-index: 55;
+        color: white;
+        font-size: 14px;
+    }
+}
